@@ -5,7 +5,7 @@ templateUrl:'servers.component.html'
 
 })
 export class Serverscomponent implements OnInit {
-  btn1status = false;
+  btn1status;
   constructor()
   {
 setTimeout((  ) =>{

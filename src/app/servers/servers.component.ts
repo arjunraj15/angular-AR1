@@ -8,7 +8,7 @@ export class Serverscomponent implements OnInit {
   btn1status = false;
   constructor()
   {
-setTimeout(() =>{
+setTimeout((  ) =>{
   this.btn1status = true
 } , 2000 );
   }

@@ -5,9 +5,12 @@ templateUrl:'servers.component.html'
 
 })
 export class Serverscomponent implements OnInit {
+  btn1status = false;
   constructor()
   {
-
+setTimeout(() =>{
+  this.btn1status = true
+} , 2000 );
   }
   ngOnInit()
   {

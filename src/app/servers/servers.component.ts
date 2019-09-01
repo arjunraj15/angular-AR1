@@ -17,7 +17,7 @@ setTimeout((  ) =>{
   }
   oncreateserver()
   {
-    this.servercreationstatus = 'server is created';
+    this.servercreationstatus = 'server is created '+this.servername;
   }
   onservername(event : any)
   {

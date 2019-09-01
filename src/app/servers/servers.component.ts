@@ -7,7 +7,7 @@ templateUrl:'servers.component.html'
 export class Serverscomponent implements 
 OnInit {
   btn1status;
-  servercreationstatus="server not created" ;
+  servercreationstatus="server not created";
   servername = 'mass mak';
   constructor()
   {

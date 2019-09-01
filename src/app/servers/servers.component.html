@@ -1,7 +1,10 @@
  <label>server name</label>
- <input type="text" (input)="onservername($event)">
+ <!-- <input type="text" (input)="onservername($event)"> -->
+ <input type="text" [(ngModel)]="servername">
+ <h5> {{ servername }} </h5>
  <button class = "btn btn-primary"
- [disabled]="!btn1status"> add server</button>
+ [disabled]="!btn1status "(click)="oncreateserver()"> add server</button>
+ <p> {{ servercreationstatus }}</p>
 <app-server></app-server>
 <app-server></app-server>
-<app-server></app-server>
+<app-server></app-server>  

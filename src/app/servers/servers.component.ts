@@ -9,6 +9,7 @@ OnInit {
   btn1status;
   servercreationstatus="server not created";
   servername = 'mass mak';
+  serverupdate =false ;
   constructor()
   {
 setTimeout((  ) =>{
@@ -17,6 +18,7 @@ setTimeout((  ) =>{
   }
   oncreateserver()
   {
+    this.serverupdate = true;
     this.servercreationstatus = 'server is created '+this.servername;
   }
   onservername(event : any)

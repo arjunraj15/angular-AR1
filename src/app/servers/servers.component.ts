@@ -12,6 +12,10 @@ setTimeout((  ) =>{
   this.btn1status = true
 } , 2000 );
   }
+  onservername(event : any)
+  {
+    
+  }
   ngOnInit()
   {
 

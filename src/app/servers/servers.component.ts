@@ -8,7 +8,7 @@ export class Serverscomponent implements
 OnInit {
   btn1status;
   servercreationstatus="server not created" ;
-  servername = '';
+  servername = 'mass mak';
   constructor()
   {
 setTimeout((  ) =>{
